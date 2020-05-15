@@ -1,0 +1,137 @@
+#bloc_page
+{
+	width: 900px;
+	max-width: 900px;
+	max-height: 900px;
+	flex-direction: column;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	background: url("river1.jpg") fixed no-repeat
+	 center, rgba(255,0,0,0.3);
+}
+
+header 
+/* le titre FREELANCE */	
+{
+	display: flex;
+	background-color: #E20E09;
+	font-family:"Swis721 LtEx BT";
+	color:white;
+	font-size:60px;
+	font-weight: bold;
+	width: 50%;
+	padding: 6px;
+	margin: 6px;
+}
+
+footer
+{
+	
+	background-color: #D4BA9E;
+	font-family:"Courier";
+		color:white;
+	font-size:20px;
+	font-weight: bold;
+	width: 45%;
+	height: 160px;
+	flex: 2;
+}
+
+nav
+{
+
+
+	width: 35%;
+	height: 100px;
+	background-color: #3B3855;
+	font-family:"Segoe script";
+		color:white;
+	font-size:10px;
+	font-weight: bold;
+		padding: 6px;
+	margin: 8px;
+	overflow: scroll;
+	list-style-type:none;
+	display: flex;
+}
+
+article
+{
+
+	background-color: #D02345;
+	font-family:"Freehand521 BT";
+	color:white;
+	font-size:20px;
+	font-weight: bold;
+	width: 30%;
+	height: 400px;
+	padding: 6px;
+	margin: 8px;
+}
+	
+article ul
+{
+	list-style-type: none;
+}
+
+
+aside
+{
+	display: flex;
+	background-color: #313417;
+	font-family:"Clarendon Blk BT";
+		color:#B78001;
+	font-size:20px;
+	font-weight: bold;
+	width: 40%;
+	height: 300px;
+		padding: 6px;
+	margin: 8px;
+}
+
+#holidays
+{
+	background-color: #817E37;
+	font-family:"Constantia";
+		color:#F3BABF;
+	font-size:24px;
+	font-weight: bold;
+	background-image: url(buff1.jpg);
+	box-shadow: 0px 4px 4px #1c1a19;
+	position: relative;
+	height: 200px;
+	width: 37%;
+		padding: 6px;
+	margin: 8px;
+}
+
+#qualities
+{
+	display: flex;
+	background-color: #A34599;
+	font-family: "Gabriola";
+		color: #F3BABF;
+	font-size:30px;
+	width: 42%;
+	height: 250px;
+	position: relative;
+		padding: 6px;
+	margin: 8px;
+}
+
+#spiritual
+{
+	background-color: #441B0A;
+	font-family: "consola";
+		color: #D4BA9E;
+	font-size:30px;
+	width: 42%;
+	height: 270px;
+	position: relative;
+	min-width: 150px;
+		padding: 6px;
+	margin: 8px;
+}
